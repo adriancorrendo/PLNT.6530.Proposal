@@ -49,15 +49,19 @@ Briefly indicate who will lead or coordinate each component (roles can overlap).
 ### 2.1 Project idea (short description)
 In few sentences, describe: <br/>
 - the agricultural context (what system/crop/problem?) <br/>
+- The purpose of this data analysis project will be to examine P rates and sources in RCBD plots in two locations.
+- Soil data was collected at the plot level which can be connected to the fertilizer rate to see amount of P in each plot
+- To hopefully re-evaluate current P rates in corn and soybean in southern Ontario
 - the data science task (what will you do with the data?) <br/>
+- Explore the data to see if there is any correlation or relationship between P level and certain realtive yield values. 
+- Explore the variables to uncover any other correlations or realtionships in the data.
 
 ### 2.2 Motivation / why it matters 🌎
 
 In just a few bullets, explain why this project is interesting or useful (scientifically, agronomically, or practically). <br/>
 
--  
--  
--  
+-  Agronomically, Ontario P rate reccommendations need to be updated.
+-  Intrestingly, this project soil samples at the plot level and not the block level to uncover soil nutrient spiatial variability. 
 
 ---
 
@@ -66,15 +70,14 @@ In just a few bullets, explain why this project is interesting or useful (scient
 Write **main objectives** (2-3 max.). Keep them specific and realistic for the semester.
 
 ### 3.1 Objectives
-1.  
-2.  
+1. Find a correlation between P levels and relative yield.
+2. Uncover the insufficient rate of P fertilizer. Might be able to be done by comparing check plots against treatment plots in regression models.   
 
 
 ### 3.2 Research questions or hypotheses (optional)
 If appropriate, list 1–3 questions/hypotheses.
 
--  
--  
+-  To determine the sufficient source either TSP or MAP and rate of P to achieve 95% relative yield in corn and soybean in south Ontario.  
 
 ---
 
@@ -93,12 +96,12 @@ Describe the dataset you will use: <br/>
 ### 4.2 Data usage policy compliance 🔒
 Briefly confirm how you comply with the course policy (check all that apply and add notes).
 
-- [ ] Data are public/openly available OR permission has been obtained.
-- [ ] Data do not contain private/personal/confidential information.
+- [*] Data are public/openly available OR permission has been obtained.
+- [*] Data do not contain private/personal/confidential information.
 - If using research/industry data: 
-- [ ] identifiers will be removed or data aggregated if needed.
-- [ ] All data sources will be cited/acknowledged appropriately.
-- [ ] The group can share the dataset with the instructor/TA for grading (or a permitted alternative is described below).
+- [*] identifiers will be removed or data aggregated if needed.
+- [*] All data sources will be cited/acknowledged appropriately.
+- [*] The group can share the dataset with the instructor/TA for grading (or a permitted alternative is described below).
 
 **Notes (if any):**
 
@@ -111,16 +114,13 @@ Describe how the “final tidy table” will look like.
 - **Missing data expected?** No, all expected data should be present 
 
 ### 4.4 Data cleaning needs 🧹
-Examples of common issues (check all that apply and add notes): <br/>
-- missing values  
-- inconsistent units  
-- messy Excel sheets / merged cells  
-- multiple files to combine  
+Our issues (check all that apply and add notes): <br/>
+- missing values such as N/A or 0 
+- inconsistent units between metric and imperial   
+- messy Excel sheets / merged cells ie. uppercases and lowercases 
+- multiple files/sheets to combine  
 - variable naming inconsistencies  
 
-Your issues:  
-- 
--
 
 ---
 
@@ -129,13 +129,7 @@ Your issues:
 ### 5.1 Planned analysis (high level)
 In bullets, list the core steps you expect to do.
 
-Examples:
-- exploratory data analysis (tables/plots)  <br/>
-- summarize treatments across sites/years  <br/>
-- simple models (e.g., regression, mixed models) if appropriate  <br/>
-- compare scenarios (e.g., management practices)  <br/>
-
-Your plan:
+Our plan:
 -  clean data set in Excel
 -  clean data set in R
 -  create new columns, rows and stand alone data sets
@@ -146,13 +140,7 @@ Your plan:
 ### 5.2 Reproducibility plan (required) ✅
 Describe what you will do to ensure the project is reproducible.
 
-Examples:
-- **Project organization:** folders (data/raw, data/clean, R/, output/, etc.) <br/>
-- **Version control:** Git + GitHub (required) <br/>
-- **Documentation:** comments in code, README file/s <br/>
-- **Quarto output:** (report, slides) <br/>
-
-Your plan:
+Our plan:
 -  shared teams project/folders 
 -  Git and Github 
 -  make several revisions and copies with date attached 
@@ -174,10 +162,6 @@ List the main tools you expect to use.
 
 List what you intend to submit at the end (even if this changes later).
 
-Minimum expected deliverables typically include:
-- a reproducible Quarto report (HTML/PDF)
-- clean data (or scripted cleaning)
-- well-documented code
 
 Your planned deliverables:  
 - a reproducible Quarto report (HTML/PDF)
