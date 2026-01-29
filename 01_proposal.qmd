@@ -1,7 +1,7 @@
 ---
 title: "PLNT6530 | Semester Project Proposal"
 subtitle: "Fertilizer Rates Impact on Corn and Soybean"
-author: "Jack McNichol and "
+author: "Jack McNichol and Anushka Nayak"
 date: "2026-01-28"
 format:
   html:
@@ -31,17 +31,16 @@ Submit this `.qmd` file (and the rendered HTML/PDF if requested by the instructo
 ### 1.1 Group members
 - **Group name (optional):**  
 - **Student 1:** Jack McNichol — 1125731 — mcnichoj@uoguelph.ca  
-- **Student 2:** Name — Student ID — Email  
-- **Student 3 (if applicable):** Name — Student ID — Email  
+- **Student 2:** Anushka Nayak — 1392268 — nayaka@uoguelph.ca 
 
 
 ### 1.2 Roles (recommended) 🧩
 Briefly indicate who will lead or coordinate each component (roles can overlap).  <br/>
 - **Project coordination:** Jack  
-- **Data lead (data cleaning + documentation):** Jack  
-- **Analysis lead (EDA + models):** Jack   
-- **Reporting lead (Quarto + communication):**  
-- **Version control lead (Git/GitHub):**  
+- **Data lead (data cleaning + documentation):** Jack
+- **Analysis lead (EDA + models):** Jack + Anushka 
+- **Reporting lead (Quarto + communication):**  Anushka 
+- **Version control lead (Git/GitHub):**  Anushka
 
 ---
 
@@ -160,7 +159,6 @@ Your plan:
 -  lots of comments within the code
 -  headers to outline
 -  keep all code in chunks 
--  
 
 ### 5.3 Tools (R packages / software) 🧰
 List the main tools you expect to use.
