@@ -1,0 +1,211 @@
+---
+title: "PLNT6530 | Semester Project Proposal"
+subtitle: "Fertilizer Rates Impact on Corn and Soybean"
+author: "Jack McNichol and "
+date: "2026-01-28"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-location: left
+    code-tools: true
+editor: source
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+## 0. Purpose 🎯
+
+This document is the **template** for your **Semester Project Proposal (5%)**.  
+Your proposal should briefly outline your **project idea**, **objectives**, and the **data** you plan to use. You will receive feedback to help refine scope and feasibility.
+
+### What you will submit ✅
+Submit this `.qmd` file (and the rendered HTML/PDF if requested by the instructor).
+
+---
+
+## 1. Group information 👥
+
+### 1.1 Group members
+- **Group name (optional):**  
+- **Student 1:** Jack McNichol — 1125731 — mcnichoj@uoguelph.ca  
+- **Student 2:** Name — Student ID — Email  
+- **Student 3 (if applicable):** Name — Student ID — Email  
+
+
+### 1.2 Roles (recommended) 🧩
+Briefly indicate who will lead or coordinate each component (roles can overlap).  <br/>
+- **Project coordination:** Jack  
+- **Data lead (data cleaning + documentation):** Jack  
+- **Analysis lead (EDA + models):** Jack   
+- **Reporting lead (Quarto + communication):**  
+- **Version control lead (Git/GitHub):**  
+
+---
+
+## 2. Project overview 🌾📊
+
+### 2.1 Project idea (short description)
+In few sentences, describe: <br/>
+- the agricultural context (what system/crop/problem?) <br/>
+- the data science task (what will you do with the data?) <br/>
+
+### 2.2 Motivation / why it matters 🌎
+
+In just a few bullets, explain why this project is interesting or useful (scientifically, agronomically, or practically). <br/>
+
+-  
+-  
+-  
+
+---
+
+## 3. Objectives & research questions ❓
+
+Write **main objectives** (2-3 max.). Keep them specific and realistic for the semester.
+
+### 3.1 Objectives
+1.  
+2.  
+
+
+### 3.2 Research questions or hypotheses (optional)
+If appropriate, list 1–3 questions/hypotheses.
+
+-  
+-  
+
+---
+
+## 4. Data plan 🗃️
+
+Students may use data from their own research, but they **must comply with the Data Usage Policy for the Semester Project**.
+
+### 4.1 Data source(s)
+Describe the dataset you will use: <br/>
+- **Dataset name / description:** All_practice_data / CSV File 
+- **Where it comes from (source):** M.Sc practice data  
+- **Owner (if applicable):** OCP/Adrian Correndo  
+- **Access method (public link, instructor-provided, member-provided):** Member-provided   
+- **File format(s):** CSV and XLSX (CSV, XLSX, etc.)  
+
+### 4.2 Data usage policy compliance 🔒
+Briefly confirm how you comply with the course policy (check all that apply and add notes).
+
+- [ ] Data are public/openly available OR permission has been obtained.
+- [ ] Data do not contain private/personal/confidential information.
+- If using research/industry data: 
+- [ ] identifiers will be removed or data aggregated if needed.
+- [ ] All data sources will be cited/acknowledged appropriately.
+- [ ] The group can share the dataset with the instructor/TA for grading (or a permitted alternative is described below).
+
+**Notes (if any):**
+
+### 4.3 Expected data structure 🧱
+Describe how the “final tidy table” will look like.
+
+- **Unit of observation (one row = ?):** 10 treatments at 2 sites
+- **Key columns (examples):** (e.g., site, year, treatment, cultivar, N_rate, yield, protein, etc.)  
+- **Approximate size:** (81 rows, 30 columns)  
+- **Missing data expected?** No, all expected data should be present 
+
+### 4.4 Data cleaning needs 🧹
+Examples of common issues (check all that apply and add notes): <br/>
+- missing values  
+- inconsistent units  
+- messy Excel sheets / merged cells  
+- multiple files to combine  
+- variable naming inconsistencies  
+
+Your issues:  
+- 
+-
+
+---
+
+## 5. Methods & reproducible workflow 🔁
+
+### 5.1 Planned analysis (high level)
+In bullets, list the core steps you expect to do.
+
+Examples:
+- exploratory data analysis (tables/plots)  <br/>
+- summarize treatments across sites/years  <br/>
+- simple models (e.g., regression, mixed models) if appropriate  <br/>
+- compare scenarios (e.g., management practices)  <br/>
+
+Your plan:
+-  clean data set in Excel
+-  clean data set in R
+-  create new columns, rows and stand alone data sets
+-  explore data in R with tables and plots
+-  find relationships and correlations through models
+-  create tables and visual components to display the findings 
+
+### 5.2 Reproducibility plan (required) ✅
+Describe what you will do to ensure the project is reproducible.
+
+Examples:
+- **Project organization:** folders (data/raw, data/clean, R/, output/, etc.) <br/>
+- **Version control:** Git + GitHub (required) <br/>
+- **Documentation:** comments in code, README file/s <br/>
+- **Quarto output:** (report, slides) <br/>
+
+Your plan:
+-  shared teams project/folders 
+-  Git and Github 
+-  make several revisions and copies with date attached 
+-  lots of comments within the code
+-  headers to outline
+-  keep all code in chunks 
+-  
+
+### 5.3 Tools (R packages / software) 🧰
+List the main tools you expect to use.
+
+-  dplyr (filter, slice, group_by, mutate, rename, summarize)
+-  ggplot (geom, aes, etc...)
+-  tidyr (fill, pivot_longer/wider, list)
+-  Quarto documents  
+
+---
+
+## 6. Deliverables 📦
+
+List what you intend to submit at the end (even if this changes later).
+
+Minimum expected deliverables typically include:
+- a reproducible Quarto report (HTML/PDF)
+- clean data (or scripted cleaning)
+- well-documented code
+
+Your planned deliverables:  
+- a reproducible Quarto report (HTML/PDF)
+- clean data (or scripted cleaning)
+- well-documented code
+- finding/results in plots and tables 
+
+---
+
+## 7. Timeline (high level) 🗓️
+
+Provide a simple timeline across the semester (milestones).
+
+- **Week 5:** proposal finalized + data secured  
+- **Week 6:** data cleaning complete  
+- **Week 7:** EDA and first results  
+- **Week 11:** finalize analysis + draft report  
+- **Week 13:** final edits + submission  
+
+---
+
+
+## Quick checklist ✅
+
+- [ ] Clear topic and objectives
+- [ ] Data source described and policy compliance addressed
+- [ ] Feasible plan for cleaning + analysis
+- [ ] Reproducibility plan (Quarto + organized folders + packages + GitHub)
+- [ ] Timeline and deliverables included
