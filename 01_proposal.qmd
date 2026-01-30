@@ -93,7 +93,7 @@ Describe the dataset you will use: <br/>
 - **Where it comes from (source):** M.Sc practice data    
 - **Owner (if applicable):** OCP/Adrian Correndo    
 - **Access method (public link, instructor-provided, member-provided):** Member-provided     
-- **File format(s):** CSV and XLSX (CSV, XLSX, etc.)    
+- **File format(s):** CSV and XLSX    
 
 ### 4.2 Data usage policy compliance 🔒
 Briefly confirm how you comply with the course policy (check all that apply and add notes).
