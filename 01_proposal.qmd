@@ -36,11 +36,11 @@ Submit this `.qmd` file (and the rendered HTML/PDF if requested by the instructo
 
 ### 1.2 Roles (recommended) 🧩
 Briefly indicate who will lead or coordinate each component (roles can overlap).  <br/>
-- **Project coordination:** Jack  
-- **Data lead (data cleaning + documentation):** Jack
-- **Analysis lead (EDA + models):** Jack + Anushka 
-- **Reporting lead (Quarto + communication):**  Anushka 
-- **Version control lead (Git/GitHub):**  Anushka
+- **Project coordination:** Jack   
+- **Data lead (data cleaning + documentation):** Jack  
+- **Analysis lead (EDA + models):** Jack + Anushka   
+- **Reporting lead (Quarto + communication):**  Anushka  
+- **Version control lead (Git/GitHub):**  Anushka  
 
 ---
 
@@ -49,12 +49,12 @@ Briefly indicate who will lead or coordinate each component (roles can overlap).
 ### 2.1 Project idea (short description)
 In few sentences, describe: <br/>
 - the agricultural context (what system/crop/problem?) <br/>
-- The purpose of this data analysis project will be to examine P rates and sources in RCBD plots in two locations.
-- Soil data was collected at the plot level which can be connected to the fertilizer rate to see amount of P in each plot
-- To hopefully re-evaluate current P rates in corn and soybean in southern Ontario
+- The purpose of this data analysis project will be to examine P rates and sources in RCBD plots in two locations.  
+- Soil data was collected at the plot level which can be connected to the fertilizer rate to see amount of P in each plot.  
+- To hopefully re-evaluate current P rates in corn and soybean in southern Ontario.  
 - the data science task (what will you do with the data?) <br/>
-- Explore the data to see if there is any correlation or relationship between P level and certain realtive yield values. 
-- Explore the variables to uncover any other correlations or realtionships in the data.
+- Explore the data to see if there is any correlation or relationship between P level and certain realtive yield values.   
+- Explore the variables to uncover any other correlations or realtionships in the data.  
 
 ### 2.2 Motivation / why it matters 🌎
 
@@ -88,20 +88,20 @@ Students may use data from their own research, but they **must comply with the D
 ### 4.1 Data source(s)
 Describe the dataset you will use: <br/>
 - **Dataset name / description:** All_practice_data / CSV File 
-- **Where it comes from (source):** M.Sc practice data  
-- **Owner (if applicable):** OCP/Adrian Correndo  
-- **Access method (public link, instructor-provided, member-provided):** Member-provided   
-- **File format(s):** CSV and XLSX (CSV, XLSX, etc.)  
+- **Where it comes from (source):** M.Sc practice data    
+- **Owner (if applicable):** OCP/Adrian Correndo    
+- **Access method (public link, instructor-provided, member-provided):** Member-provided     
+- **File format(s):** CSV and XLSX (CSV, XLSX, etc.)    
 
 ### 4.2 Data usage policy compliance 🔒
 Briefly confirm how you comply with the course policy (check all that apply and add notes).
 
-- [*] Data are public/openly available OR permission has been obtained.
-- [*] Data do not contain private/personal/confidential information.
+- [x] Data are public/openly available OR permission has been obtained.
+- [x] Data do not contain private/personal/confidential information.
 - If using research/industry data: 
-- [*] identifiers will be removed or data aggregated if needed.
-- [*] All data sources will be cited/acknowledged appropriately.
-- [*] The group can share the dataset with the instructor/TA for grading (or a permitted alternative is described below).
+- [x] identifiers will be removed or data aggregated if needed.
+- [x] All data sources will be cited/acknowledged appropriately.
+- [x] The group can share the dataset with the instructor/TA for grading (or a permitted alternative is described below).
 
 **Notes (if any):**
 
@@ -115,11 +115,11 @@ Describe how the “final tidy table” will look like.
 
 ### 4.4 Data cleaning needs 🧹
 Our issues (check all that apply and add notes): <br/>
-- missing values such as N/A or 0 
-- inconsistent units between metric and imperial   
-- messy Excel sheets / merged cells ie. uppercases and lowercases 
-- multiple files/sheets to combine  
-- variable naming inconsistencies  
+- missing values such as N/A or 0   
+- inconsistent units between metric and imperial     
+- messy Excel sheets / merged cells ie. uppercases and lowercases   
+- multiple files/sheets to combine    
+- variable naming inconsistencies    
 
 
 ---
@@ -129,32 +129,32 @@ Our issues (check all that apply and add notes): <br/>
 ### 5.1 Planned analysis (high level)
 In bullets, list the core steps you expect to do.
 
-Our plan:
--  clean data set in Excel
--  clean data set in R
--  create new columns, rows and stand alone data sets
--  explore data in R with tables and plots
--  find relationships and correlations through models
--  create tables and visual components to display the findings 
+Our plan:  
+-  clean data set in Excel  
+-  clean data set in R  
+-  create new columns, rows and stand alone data sets  
+-  explore data in R with tables and plots  
+-  find relationships and correlations through models  
+-  create tables and visual components to display the findings   
 
 ### 5.2 Reproducibility plan (required) ✅
 Describe what you will do to ensure the project is reproducible.
 
-Our plan:
--  shared teams project/folders 
--  Git and Github 
--  make several revisions and copies with date attached 
--  lots of comments within the code
--  headers to outline
--  keep all code in chunks 
+Our plan:  
+-  shared teams project/folders   
+-  Git and Github   
+-  make several revisions and copies with date attached   
+-  lots of comments within the code  
+-  headers to outline  
+-  keep all code in chunks   
 
 ### 5.3 Tools (R packages / software) 🧰
 List the main tools you expect to use.
 
--  dplyr (filter, slice, group_by, mutate, rename, summarize)
--  ggplot (geom, aes, etc...)
--  tidyr (fill, pivot_longer/wider, list)
--  Quarto documents  
+-  dplyr (filter, slice, group_by, mutate, rename, summarize)  
+-  ggplot (geom, aes, etc...)  
+-  tidyr (fill, pivot_longer/wider, list)  
+-  Quarto documents    
 
 ---
 
@@ -164,10 +164,10 @@ List what you intend to submit at the end (even if this changes later).
 
 
 Your planned deliverables:  
-- a reproducible Quarto report (HTML/PDF)
-- clean data (or scripted cleaning)
-- well-documented code
-- finding/results in plots and tables 
+- a reproducible Quarto report (HTML/PDF)  
+- clean data (or scripted cleaning)  
+- well-documented code  
+- finding/results in plots and tables   
 
 ---
 
@@ -175,19 +175,19 @@ Your planned deliverables:
 
 Provide a simple timeline across the semester (milestones).
 
-- **Week 5:** proposal finalized + data secured  
-- **Week 6:** data cleaning complete  
+- **Week 5:** Proposal finalized + data secured  
+- **Week 6:** Data cleaning complete  
 - **Week 7:** EDA and first results  
-- **Week 11:** finalize analysis + draft report  
-- **Week 13:** final edits + submission  
+- **Week 11:** Finalize analysis + draft report  
+- **Week 13:** Final edits + submission  
 
 ---
 
 
 ## Quick checklist ✅
 
-- [ ] Clear topic and objectives
-- [ ] Data source described and policy compliance addressed
-- [ ] Feasible plan for cleaning + analysis
-- [ ] Reproducibility plan (Quarto + organized folders + packages + GitHub)
-- [ ] Timeline and deliverables included
+- [x] Clear topic and objectives
+- [x] Data source described and policy compliance addressed
+- [x] Feasible plan for cleaning + analysis
+- [x] Reproducibility plan (Quarto + organized folders + packages + GitHub)
+- [x] Timeline and deliverables included
