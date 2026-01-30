@@ -48,20 +48,22 @@ Briefly indicate who will lead or coordinate each component (roles can overlap).
 
 ### 2.1 Project idea (short description)
 In few sentences, describe: <br/>
-- the agricultural context (what system/crop/problem?) <br/>
-- The purpose of this data analysis project will be to examine P rates and sources in RCBD plots in two locations.  
-- Soil data was collected at the plot level which can be connected to the fertilizer rate to see amount of P in each plot.  
-- To hopefully re-evaluate current P rates in corn and soybean in southern Ontario.  
-- the data science task (what will you do with the data?) <br/>
-- Explore the data to see if there is any correlation or relationship between P level and certain realtive yield values.   
-- Explore the variables to uncover any other correlations or realtionships in the data.  
+
+  The agricultural context (what system/crop/problem?) <br/>
+- The purpose of this data analysis project is to examine phosphorous (P) rates and sources in RCBD plots across two locations.  
+- Soil data were collected at the plot level and can be linked to fertilizer rates to determine the amount of P in each plot.  
+- The goal is to re-evaluate current P rates for corn and soybean in southern Ontario.  
+
+  The data science task (what will you do with the data?) <br/>
+- Explore the data to determine if there is any correlation or relationship between P levels and relative yield values.   
+- Investigate the variables to uncover any other correlations or relationships within the data.  
 
 ### 2.2 Motivation / why it matters 🌎
 
 In just a few bullets, explain why this project is interesting or useful (scientifically, agronomically, or practically). <br/>
 
 -  Agronomically, Ontario P rate reccommendations need to be updated.
--  Intrestingly, this project soil samples at the plot level and not the block level to uncover soil nutrient spiatial variability. 
+-  Interestingly, this project uses soil samples at the plot level rather than the block level to uncover soil nutrient spatial variability. 
 
 ---
 
@@ -70,14 +72,14 @@ In just a few bullets, explain why this project is interesting or useful (scient
 Write **main objectives** (2-3 max.). Keep them specific and realistic for the semester.
 
 ### 3.1 Objectives
-1. Find a correlation between P levels and relative yield.
-2. Uncover the insufficient rate of P fertilizer. Might be able to be done by comparing check plots against treatment plots in regression models.   
+1. Find the correlation between phosphorous levels and relative yield.
+2. Uncover the insufficient rate of phosphorus fertilizer, which might be determined by comparing check plots with treatment plots using regression models.   
 
 
 ### 3.2 Research questions or hypotheses (optional)
 If appropriate, list 1–3 questions/hypotheses.
 
--  To determine the sufficient source either TSP or MAP and rate of P to achieve 95% relative yield in corn and soybean in south Ontario.  
+-  To determine the sufficient source, either triple superphosphate (TSP) or monoammonium phosphate (MAP), and the rate of P required to achieve 95% relative yield in corn and soybean in southern Ontario.  
 
 ---
 
@@ -87,7 +89,7 @@ Students may use data from their own research, but they **must comply with the D
 
 ### 4.1 Data source(s)
 Describe the dataset you will use: <br/>
-- **Dataset name / description:** All_practice_data / CSV File 
+- **Dataset name / description:** All_practice_data / CSV File   
 - **Where it comes from (source):** M.Sc practice data    
 - **Owner (if applicable):** OCP/Adrian Correndo    
 - **Access method (public link, instructor-provided, member-provided):** Member-provided     
@@ -98,8 +100,8 @@ Briefly confirm how you comply with the course policy (check all that apply and 
 
 - [x] Data are public/openly available OR permission has been obtained.
 - [x] Data do not contain private/personal/confidential information.
-- If using research/industry data: 
-- [x] identifiers will be removed or data aggregated if needed.
+- [x] If using research/industry data: 
+- [x] Identifiers will be removed or data aggregated if needed.
 - [x] All data sources will be cited/acknowledged appropriately.
 - [x] The group can share the dataset with the instructor/TA for grading (or a permitted alternative is described below).
 
@@ -115,11 +117,11 @@ Describe how the “final tidy table” will look like.
 
 ### 4.4 Data cleaning needs 🧹
 Our issues (check all that apply and add notes): <br/>
-- missing values such as N/A or 0   
-- inconsistent units between metric and imperial     
-- messy Excel sheets / merged cells ie. uppercases and lowercases   
-- multiple files/sheets to combine    
-- variable naming inconsistencies    
+- Missing values (e.g., N/A, 0)   
+- Inconsistent units (metric vs. imperial)     
+- Messy Excel sheets (e.g., merged cells, upper vs. lowercase)  
+- Multiple files or sheets to combine    
+- Variable naming inconsistencies    
 
 
 ---
@@ -130,29 +132,29 @@ Our issues (check all that apply and add notes): <br/>
 In bullets, list the core steps you expect to do.
 
 Our plan:  
--  clean data set in Excel  
--  clean data set in R  
--  create new columns, rows and stand alone data sets  
--  explore data in R with tables and plots  
--  find relationships and correlations through models  
--  create tables and visual components to display the findings   
+-  Clean the dataset in Excel  
+-  Clean the dataset in R  
+-  Create new columns, rows, and standalone datasets  
+-  Explore the data in R using tables and plots  
+-  Identify relationships and correlations through models  
+-  Create tables and visual components to display the findings     
 
 ### 5.2 Reproducibility plan (required) ✅
 Describe what you will do to ensure the project is reproducible.
 
 Our plan:  
--  shared teams project/folders   
--  Git and Github   
--  make several revisions and copies with date attached   
--  lots of comments within the code  
--  headers to outline  
--  keep all code in chunks   
+-  Use shared project/folders in Microsoft Teams   
+-  Version control using Git and GitHub   
+-  Maintain regular, dated revisions of all files   
+-  Include extensive comments within the code  
+-  Use clear headers to outline sections of the analysis  
+-  Keep all code contained within Quarto code chunks   
 
 ### 5.3 Tools (R packages / software) 🧰
 List the main tools you expect to use.
 
--  dplyr (filter, slice, group_by, mutate, rename, summarize)  
--  ggplot (geom, aes, etc...)  
+-  dplyr (filter, slice, group_by, mutate, rename, summarize) 
+-  ggplot2 (geom, aes, etc.)  
 -  tidyr (fill, pivot_longer/wider, list)  
 -  Quarto documents    
 
