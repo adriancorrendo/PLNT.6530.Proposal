@@ -1,0 +1,69 @@
+---
+title: "PLNT6530 | Semester Project Proposal"
+subtitle: "Fertilizer Rates Impact on Corn and Soybean"
+author: "Jack McNichol and Anushka Nayak"
+date: "2026-01-28"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-location: left
+    code-tools: true
+editor: source
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+### Strengths ✅
+- Clear agronomic question with strong relevance (P management and relative yield). <br/>
+- Interesting angle: plot-level soil sampling (captures within-block spatial variability). <br/>
+- Roles are assigned and the dataset/source is clearly identified. <br/>
+- Data policy compliance is completed properly. <br/>
+
+### Main recommendations for next steps 🔧
+
+1) Calibrate the “impact” claim (scope of inference) <br/>
+With only **4 locations** (and limited site-years), this dataset is **not sufficient to update Ontario-wide P recommendations** by itself. <br/>
+- Please frame the project as a **case study** that explores patterns in these sites/crops. <br/>
+- A strong and realistic contribution is to evaluate potential **bias/uncertainty** introduced by plot-to-plot variability that is often ignored (especially when soil sampling is done at the block level). <br/>
+
+2) Clarify what you mean by “correlation” and separate *two analyses* <br/>
+The word “correlation” can be confusing here because you have both: <br/>
+- a designed experiment (RCBD with treatments), and <br/>
+- soil test values (STV) that vary within blocks. <br/>
+
+It sounds like you want to compare two approaches for explaining **relative yield**: <br/>
+- **Approach A (block-level STV):** compute an STV per block (pooling/averaging) and relate relative yield to that. <br/>
+- **Approach B (plot-level STV):** use plot-level STV to explore whether within-block soil variability changes interpretation (e.g., match/cluster plots with similar STV, or treat STV as plot-level information while still respecting site/block structure). <br/>
+
+Write this explicitly as a goal (block vs plot STV comparison), rather than “correlation” as a headline without context. <br/>
+
+3) You can keep all 4 locations (2 corn + 2 soybean), but keep responses simple <br/>
+Keeping 4 locations is reasonable since it’s only 2 crop-types × 2 locations. <br/>
+- Keep **one main response variable**: **Relative yield** (recommended). <br/>
+- Optional second response: absolute response (it may help w/interpretation). <br/>
+
+4) Make the unit of observation + RCBD structure explicit <br/>
+Please clarify: <br/>
+- One row = plot (site × block × treatment)? <br/>
+- Number of blocks/replications per site? <br/>
+- Considering creating plot_id that will identify the combination of site, crop, block, and treatment. <br/>
+
+5) Methods: keep treatment analysis and STV comparison as distinct steps <br/>
+To keep the report clear, use a two-part structure: <br/>
+- **Part 1 (treatment-focused):** summarize/test P rate/source effects on relative yield within each site (or pooled with site effects). <br/>
+- **Part 2 (STV-focused):** compare block-level vs plot-level STV approaches and discuss potential bias/interpretation differences due to plot-to-plot variability. <br/>
+
+6) Reproducibility note: avoid “clean in Excel” as the primary workflow <br/>
+It’s fine to inspect in Excel, but keep raw files unchanged and do cleaning in R. <br/>
+- `data/raw/` unchanged, cleaning script → `data/clean/`. <br/>
+- Use GitHub commits/issues (instead of dated copies) as your version history. <br/>
+
+### Bottom line ✅
+This project can be excellent if framed as a focused **case study**: <br/>
+- not “updating Ontario recommendations,” but <br/>
+- evaluating how much plot-to-plot STV variability may affect conclusions when variability is ignored (block-level sampling). <br/>
+That’s a strong, realistic, and clearly reproducible contribution. <br/>
+
